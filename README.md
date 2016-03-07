@@ -11,9 +11,18 @@ Instance image contains Python Keras library and the MXNet Deep Learning framewo
   Keras Dependency - Theano: pip install git+git://github.com/Theano/Theano.git
 
 How to train model:
+
 •	Download the data
 •	Point train.py at the DSB data.  We used a partition to store the data: /data, so it is necessary to mount the partition unless this process is automated by editing /etc/fstab
 •	execute python train.py to train the model.
+
+<ol>
+<li><a href="https://www.kaggle.com/c/job-salary-prediction/data">Download the data</a></li>
+<li>Modify SETTINGS.json to point to the training and validation data on your system, as well as a place to save the trained model and a place to save the submission</li>
+<li>Train the model by running <code>python train.py</code></li>
+<li>Make predictions on the validation set by running <code>python predict.py</code></li>
+<li><a href="https://www.kaggle.com/c/job-salary-prediction/team/select">Make a submission</a> with the output file</li>
+</ol>
 
 Making predictions on a new test set:
 
