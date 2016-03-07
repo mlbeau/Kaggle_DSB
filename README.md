@@ -12,7 +12,7 @@ Instance image contains Python Keras library and the MXNet Deep Learning framewo
 
 How to train model:
 <ul>
-<li><a href=" https://www.kaggle.com/c/second-annual-data-science-bowl/data">Download the data</a></li>
+<li><a href="https://www.kaggle.com/c/second-annual-data-science-bowl/data">Download the data</a></li>
 <li>Point train.py at the DSB data.  
 We used a partition to store the data: /data, so it is necessary to mount the partition unless this process is automated by editing /etc/fstab
 <li>execute python train.py to train the model.</li>
