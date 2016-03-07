@@ -14,7 +14,7 @@ execute python train.py to train the model.
 
 d. Making predictions on a new test set:
   Submission file is generated for the trained model by executing submission.py with:
-   python submission.py
+   python submission.py.
    This program loads the systole and diastole models and best weights saved in weights_systole_best.hd5 and
    weights_diastole_best.hd5 respectively.  Validation data is loaded into memory from the data stored in X_validate.npy and        ids_validate.npy.
    
