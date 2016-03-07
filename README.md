@@ -13,6 +13,7 @@ Instance image contains Python Keras library and the MXNet Deep Learning framewo
 How to train model:
 
 •	Point train.py at the DSB data.  We used a partition to store the data: /data, so it is necessary to mount the partition unless this process is automated by editing /etc/fstab
+
 •	execute python train.py to train the model.
 
 Making predictions on a new test set:
